@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 import statistics
 import random
 
-data = pd.read_csv("csv/110.csv")
+data = pd.read_csv("110.csv")
 data_list = data["temp"].tolist()
 
 data_mean = statistics.mean(data_list)
